@@ -1,0 +1,5 @@
+git init (инициализировать репозиторий)
+git config --local user.name "Yana" (представляемся, кто писал код?) (--global)
+git config --local user.email "Yana" (представляемся, email) (--global)
+git status (за чем следит гит? untracked - недобавленные)
+git add -A (добавить все)
