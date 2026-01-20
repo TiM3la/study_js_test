@@ -3,3 +3,4 @@ git config --local user.name "Yana" (представляемся, кто пис
 git config --local user.email "Yana" (представляемся, email) (--global)
 git status (за чем следит гит? untracked - недобавленные)
 git add -A (добавить все)
+git commit -a -m"Название коммита" (коммит)
