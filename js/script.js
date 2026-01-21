@@ -1,22 +1,12 @@
 "use strict";
 
-let num = 50;
-
-// while (num < 55) {
-//     console.log(num);
-//     num++;
-// };
-
-// do {
-//     console.log(num);
-//     num++;
-// }
-// while (num < 55);
-
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        // break;
-        continue;
-    };
-    console.log(i)
+const options = {
+    'name': 'test',
+    'width': 1024,
+    'height': 1024,
+    'colors': {
+        'border': 'black',
+        'background': 'red'
+    }
 };
+
