@@ -1,12 +1,29 @@
 "use strict";
 
-const options = {
-    'name': 'test',
-    'width': 1024,
-    'height': 1024,
-    'colors': {
-        'border': 'black',
-        'background': 'red'
+let str = 'some',
+    strObj = new String(str);
+
+console.log(typeof(str));
+console.log(typeof(strObj));
+
+console.dir([1, 2 ,3]);
+
+const soldier = {
+    health: 400,
+    armor: 100,
+    sayHello: function() {
+        console.log('Hello!')
     }
 };
 
+const jonh = Object.create(soldier);
+
+
+const jonh = {
+    health: 100
+}
+
+Object.setPrototypeOf(jonh, soldier);
+
+console.log(jonh);
+jonh.sayHello();
